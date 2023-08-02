@@ -1,6 +1,6 @@
 ---
 title: Starting a blog and testing jekyll   
-date: YYYY-MM-DD HH:MM:SS +/-TTTT
+date: 2023-08-01 15:42:00 
 categories: news, blogging 
 tags: jekyll, github-pages     # TAG names should always be lowercase
 ---
