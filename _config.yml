@@ -20,7 +20,7 @@ timezone:
 
 title: hirseboy's kaschemme # the main title
 
-tagline: Some daily coding and fun written by Stephan Hirth # it will display as the sub-title
+tagline: Some coding fun written by Stephan Hirth # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
