@@ -2,7 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
-title: Hi, there my name is Stephan 👋
+title: Hi, my name is Stephan 👋
 ---
 
 I am Stephan Hirth, a researcher in the field of building physics at the TU Dresden.
