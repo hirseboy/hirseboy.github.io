@@ -1,7 +1,7 @@
 ---
 title: How to generate a modern looking documenation of c++ code using doxygen and doxygen awsome
 date: 2023-08-02 14:00:00 
-categories: news, blogging 
+categories: news,blogging 
 tags: doxygen,c++,documentation     # TAG names should always be lowercase
 ---
 
@@ -35,11 +35,30 @@ This can be done in several ways:
 - adding the project as a npm/xpm dependency
 - installing the theme system wide
 
-We will do it as an git submodule and copy the files manually.
+We will do it as an git submodule and copy the files manually. There are two different themes of doxygen awesome. We will choose the sidebar-only theme, since it is visually more appealing! To optain a good result we need to carefully config the doxyfile with all necessairy information. Since we want to have the variant with search bar and switchable dark / light theme. Some extra addings are important.
 
-There are two different themes of doxygen awesome. We will choose the sidebar-only theme, since it is visually more appealing!
+```txt
 
-To optain a good result we need to carefully config the doxyfile with all necessairy information. Since we want to have the variant with search bar and switchable dark / light theme. Some extra addings are important.
+HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css \
+                         doxygen-awesome-css/doxygen-custom/custom.css \
+                         doxygen-awesome-css/doxygen-awesome-sidebar-only.css \
+                         doxygen-awesome-css/doxygen-awesome-sidebar-only-darkmode-toggle.css \
+                         doxygen-awesome-css/doxygen-custom/custom-alternative.css
+
+HTML_EXTRA_FILES       = doxygen-awesome-css/doxygen-awesome-darkmode-toggle.js \
+                         doxygen-awesome-css/doxygen-awesome-fragment-copy-button.js \
+                         doxygen-awesome-css/doxygen-awesome-paragraph-link.js \
+                         doxygen-awesome-css/doxygen-custom/toggle-alternative-theme.js \
+                         doxygen-awesome-css/doxygen-awesome-interactive-toc.js \
+                         doxygen-awesome-css/doxygen-awesome-tabs.js
+
+GENERATE_TREEVIEW      = YES # optional. Also works without treeview
+DISABLE_INDEX          = NO
+FULL_SIDEBAR           = NO
+HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css
+HTML_COLORSTYLE        = LIGHT # required with Doxygen >= 1.9.5
+
+```
 
 ## Run doxygen to generate the documentation
 
