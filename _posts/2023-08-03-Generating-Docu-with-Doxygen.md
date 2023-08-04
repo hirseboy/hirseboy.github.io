@@ -61,13 +61,20 @@ DISABLE_INDEX          = NO
 FULL_SIDEBAR           = NO
 HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css
 HTML_COLORSTYLE        = LIGHT # required with Doxygen >= 1.9.5
+SEARCHENGINE           = YES # needs to be there to show the serach box
 
 ```
 
+Please mind, that the searchengine needs to be enabled, otherwise the serach box is missing! Also it is wise to specify an folder, where the documentation should be created in.
+
 ## Run doxygen to generate the documentation
 
-In order to generate the documentation you can simply run doxygen with the configuration file
+Finally you can runIn order to generate the documentation you can simply run doxygen with the configuration file
 
 ```shell
 doxygen <config-file>
 ```
+
+Afterwards you can publish your documentation to your web server. Just copy the `docs` folder and open `html/index.html`
+
+Have fun with your documentation
