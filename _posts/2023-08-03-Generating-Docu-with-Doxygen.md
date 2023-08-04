@@ -1,8 +1,8 @@
 ---
 title: How to generate a modern looking documenation of c++ code using doxygen and doxygen awsome
 date: 2023-08-02 14:00:00 
-categories: news,blogging 
-tags: doxygen,c++,documentation     # TAG names should always be lowercase
+categories: news blogging 
+tags: doxygen c++ documentation     # TAG names should always be lowercase
 ---
 
 What do I need?
