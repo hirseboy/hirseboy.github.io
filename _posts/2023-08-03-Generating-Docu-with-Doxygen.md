@@ -5,6 +5,11 @@ categories: news blogging
 tags: doxygen c++ documentation     # TAG names should always be lowercase
 ---
 
+
+Do you need a modern looking documentation of your c++ code and are you bored of the looks of doxygen? Then doxygen awesome is something you should use!
+
+Here you can find an [example](https://ghorwin.github.io/SIM-VICUS/VICUS-Model-Documentation/index.html)
+
 What do I need?
 1. [Doxygen awesome](https://jothepro.github.io/doxygen-awesome-css/)
 2. [Doxygen](https://www.doxygen.nl/index.html)
