@@ -35,9 +35,13 @@ This can be done in several ways:
 - adding the project as a npm/xpm dependency
 - installing the theme system wide
 
-We will do it as an git submodule and copy the files manually. There are two different themes of doxygen awesome. We will choose the sidebar-only theme, since it is visually more appealing! To optain a good result we need to carefully config the doxyfile with all necessairy information. Since we want to have the variant with search bar and switchable dark / light theme. Some extra addings are important.
+We will do it as an git submodule and copy the files manually. There are two different themes of doxygen awesome. We will choose the sidebar-only theme, since it is visually more appealing! To optain a good result we need to carefully config the doxyfile with all necessairy information. Since we want to have the variant with search bar and switchable dark / light theme. Some extra addings are important. 
 
-```txt
+### Configuration file
+
+Doxygen configuration needs to be done in the doxyfile. In our case it is `Vicus.doxyfile`.
+
+```
 
 HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css \
                          doxygen-awesome-css/doxygen-custom/custom.css \
