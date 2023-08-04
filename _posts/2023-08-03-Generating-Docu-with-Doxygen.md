@@ -5,9 +5,7 @@ categories: news,blogging
 tags: doxygen,c++,documentation     # TAG names should always be lowercase
 ---
 
-# Important links
-
-Links:
+What do I need?
 1. [Doxygen awesome](https://jothepro.github.io/doxygen-awesome-css/)
 2. [Doxygen](https://www.doxygen.nl/index.html)
 
@@ -77,4 +75,4 @@ doxygen <config-file>
 
 Afterwards you can publish your documentation to your web server. Just copy the `docs` folder and open `html/index.html`
 
-Have fun with your documentation
+Have fun with your documentation!
