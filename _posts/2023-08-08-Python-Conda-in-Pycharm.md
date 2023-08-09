@@ -31,9 +31,9 @@ conda install conda
 
 In pycharm you can go under `File` > `Settings` to `Interpreter settings`. There you can click `Add Interpreter`
 
-![Add interpreter](/assets/img/add-interpreter.png.png)
+![Add interpreter](/assets/img/add-interpreter.png)
 
-![Conda Environement](/assets/img/conda-interpreter.png.png)
+![Conda Environement](/assets/img/conda-interpreter.png)
 
 Choose `Conda environment` and in our case we choose `Create new environment`
 
