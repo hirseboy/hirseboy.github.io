@@ -39,11 +39,11 @@ Choose `Conda environment` and in our case we choose `Create new environment`
 
 Now your can automatically install conda packages in pycharm.
 
-If some are not found just use the `termina` and install them manually with the conda manager.
+If some are not found just use the `terminal` and install them manually with the conda manager.
 
-Since the conda solver has some slow and buggy solving. It is better to use a different one named `libmamba` 
+Since the conda solver has some slow and buggy solving. It is better to use a new one named `libmamba` 
 
-To install `libmamba` we need to do the following: The libmamba solver’s experimental flag has been removed. 
+To install `libmamba` we need to do the following. The libmamba solver’s experimental flag has been removed. 
 To use the new solver, update conda in your base environment: 
 
 ```shell
