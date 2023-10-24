@@ -41,6 +41,51 @@ Now your can automatically install conda packages in pycharm.
 
 If some are not found just use the `termina` and install them manually with the conda manager.
 
+Since the conda solver has some slow and buggy solving. It is better to use a different one named `libmamba` 
+
+To install `libmamba` we need to do the following: The libmamba solver’s experimental flag has been removed. 
+To use the new solver, update conda in your base environment: 
+
+```shell
+conda update -n base conda
+```
+
+To install and set the new solver, run the following commands:
+
+```shell
+conda install -n base conda-libmamba-solver
+conda config --set solver libmamba
+```
+
+Now we can install the pythonOCC-core with:
+
 ```shell
 conda install -c conda-forge pythonocc-core
 ```
+Since the solver had some problems with this and always froze in the process, we can now install `pythonocc-core` with `libmamba`.
+
+Now we also install `ifctransform` and `pythonocc-utils`
+
+```shell
+conda install -c ifcopenshell ifcopenshell 
+```
+
+Now comes the tricky part. Since `pythonocc-utils` are not part of the conda repository anymore, we need to build it locally.
+
+First we clone the [repository](https://github.com/tpaviot/pythonocc-utils) of `pythonocc-utils` 
+
+Then we are activating the conda envirement inside the terminal and use pip to manually build the library via the `install.py` in our environement.
+
+```shell
+python path/to/setup.py install
+```
+
+Now only a GUI-library is missing. We choose to install `PyQt5` via pip since I'm lazy.
+
+```shell
+pip install PyQt5
+```
+
+Now the python script should run.
+
+
