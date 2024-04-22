@@ -10,5 +10,8 @@ tags: apt repositories     # TAG names should always be lowercase
 - `apt autoclean` → cleans obsolete deb-packages, less than clean
 - `apt autoremove` → removes orphaned packages which are not longer needed from the system, but not purges them, use the `--purge` option together with the command for that.
 
-[!IMPORTANT]  
-`--purge` removes also the configuration files, so be careful!
+
+> ##### WARNING
+>
+> `--purge` removes also the configuration files, so be careful!
+{: .block-warning }
