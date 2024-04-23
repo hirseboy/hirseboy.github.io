@@ -50,7 +50,8 @@ Hier nun eine kurze Liste der Erweiterungen, die ich derzeit nutze:
 - [Blur my shell](https://github.com/aunetx/blur-my-shell)
 - [ddterm](https://github.com/ddterm/gnome-shell-extension-ddterm)
 - [AATWS](https://github.com/G-dH/advanced-alttab-window-switcher) 
-- [Gnome 4x Overview UI Tune](https://github.com/axxapy/gnome-ui-tune) 
+- [Gnome 4x Overview UI Tune](https://github.com/axxapy/gnome-ui-tune)
+- [Steal my focus](https://github.com/zalckos/GrandTheftFocus)
 
 ## zsh + powerlevel10k
 
@@ -110,4 +111,17 @@ gsettings set org.gnome.desktop.wm.preferences focus-new-windows 'strict'`
 > 
 {: .block-warning }
 
+## Package-Management
 
+Da ich immernoch debian-packages präferiere und nicht alles über flatpak oder gar snap installieren will, nutze ich viel `apt`. Mir gefällt aber nicht, dass man keinen guten Überblick über die installierten Änderungen hat. Außerdem ist kein paralleler Download möglich. Deswegen bin ich jetzt auf [nala](https://gitlab.com/volian/nala)
+umgestiegen. 
+
+Auf Debian-Systemen kann man `nala` einfach via `apt` installieren:
+
+```shell
+sudo apt install nala
+```
+
+Die Befehle sind sehr ähnlich zu `apt`, darüber hinaus gibt es auch eine Historie der angewendeten Änderungen.
+
+![Nala](/assets/img/nala.png.png)
