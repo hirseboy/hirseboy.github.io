@@ -93,7 +93,6 @@ p10k configure
 
 Wenn `Fenster bereit` nervt und das Fenster nicht in den Fokus gerückt wird, dann kann man folgenden Befehl ausführen. Damit werden Fenster aus dem Kontext heraus in denn Focus gesetzt. Man kann als Parameter auch `strict` setzen, dann werden die Fenster immer in den Vordergrund gesetzt.
 
-ACHTUNG: Bei mir funktioniert das mit Gnome 45 derzeit nicht
 
 ```shell
 gsettings set org.gnome.desktop.wm.preferences auto-raise 'true'
@@ -104,4 +103,11 @@ or
 ```shell
 gsettings set org.gnome.desktop.wm.preferences focus-new-windows 'strict'`
 ```
+
+> ##### WARNING
+>
+> Da das bei mir nicht richtig unter Gnome 45 funktioniert, bin ich jetzt auf das [Steal my focus](https://github.com/zalckos/GrandTheftFocus) plugin umgestiegen. Damit werden neu geöffnete Fenster immer in den Focus gesetzt.
+> 
+{: .block-warning }
+
 
