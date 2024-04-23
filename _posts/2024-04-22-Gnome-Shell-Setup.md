@@ -124,4 +124,4 @@ sudo apt install nala
 
 Die Befehle sind sehr ähnlich zu `apt`, darüber hinaus gibt es auch eine Historie der angewendeten Änderungen.
 
-![Nala](/assets/img/nala.png.png)
+![Nala](/assets/img/nala.png)
