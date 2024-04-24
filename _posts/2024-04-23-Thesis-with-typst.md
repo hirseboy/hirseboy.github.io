@@ -5,4 +5,4 @@ categories: blogging
 tags: thesis science building-physics     # TAG names should always be lowercase
 ---
 
-Since I am not a big fan of  
+Coming soon ;)
