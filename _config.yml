@@ -20,7 +20,9 @@ timezone:
 
 title: Hirseboys Hüttengaudi  # the main title
 
-tagline: Some stuff written by Stephan Hirth # it will display as the sub-title
+tagline: Coding, science and more # it will display as the sub-title
+
+paginate_path: "/blog/page:num"
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
