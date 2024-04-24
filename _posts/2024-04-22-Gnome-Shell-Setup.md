@@ -55,7 +55,7 @@ Hier nun eine kurze Liste der Erweiterungen, die ich derzeit nutze:
 
 ## zsh + powerlevel10k
 
-Ich nutzte derzeit [oh my zsh](https://ohmyz.sh/) als mein Terminal mit [powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#configuration-wizard), um es noch etwas schöner zu machen. `Oh my zsh` wird via `curl` oder `wget` installiert. Was es genau macht, seht ihr ja selbst im Befehl - es lädt ein shell-script herunter und führt es mittels `sh -c` aus.
+Ich nutzte derzeit `zsh` + [oh my zsh](https://ohmyz.sh/) in meinem `gnome-terminal` mit [powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#configuration-wizard), um es noch etwas schöner zu machen. `Oh my zsh` wird via `curl` oder `wget` installiert. Was es genau macht, seht ihr ja selbst im Befehl - es lädt ein shell-script herunter und führt es mittels `sh -c` aus.
 Das Argument `-c` macht dabei folgendes:
 
 ```shell
