@@ -16,7 +16,13 @@ sudo nano /etc/default/grub
 and add  to the end of the `GRUB_CMDLINE_LINUX_DEFAULT` line
 
 ```shell
-“i915.enable_psr=0
+i915.enable_psr=0
+```
+
+In the end it should look like this:
+
+```shell
+GRUB_CMDLINE_LINUX_DEFAULT="intel_iommu=on iommu=pt i915.enable_psr=0"
 ```
 
 then run:
