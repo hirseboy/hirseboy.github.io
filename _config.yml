@@ -20,7 +20,9 @@ timezone:
 
 title: Hirseboys Hüttengaudi  # the main title
 
-tagline: Some stuff written by Stephan Hirth # it will display as the sub-title
+tagline: Coding, science and more # it will display as the sub-title
+
+paginate_path: "/blog/page:num"
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -31,7 +33,6 @@ url: "https://hirseboy.github.io"
 github:
   username: hirseboy # change to your github username
 
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -39,7 +40,6 @@ social:
   email: hirth.stephan@posteo.de # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/hirseboy # change to your twitter homepage
     - https://github.com/hirseboy # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
