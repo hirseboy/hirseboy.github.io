@@ -19,7 +19,7 @@ then you simply choose the device you want to disable - in our case it is:
 ⎜   ↳ Wacom Pen and multitouch sensor Finger touch	id=11	[slave  pointer  (2)]
 ```
 
-To disable this device you just use the following command:
+To disable this device you just use `disable` with the specific ID:
 
 ```shell
 xinput disable 11
