@@ -51,7 +51,9 @@ flatpak install flathub com.brave.Browser
 flatpak install flathub org.kde.okular
 ```
 
-> Note: Okular automatically used my signing certificate. If not, go to `Settings > Configure Backends > PDF` and select the certificate database from Firefox/Thunderbird using the `NSS` module.
+> Note: Okular automatically used my signing certificate. If not, go to `Settings > Configure Backends > PDF` and select the certificate database from Firefox/Thunderbird using the `NSS` module. 
+
+![Okular with certificate for signing PDFs](/assets/img/fedora-certificate.png)
 
 ### Optional: VSCodium (Open Source VSCode)
 
@@ -104,6 +106,8 @@ You can also set the variable using Flatseal:
 ```ini
 GTK_THEME=Adwaita:dark
 ```
+
+![Flatseal with environement variables  ](/assets/img/fedora-flatseal.png.png)
 
 ## Programming
 
@@ -203,9 +207,52 @@ flatpak install flathub org.gnome.World.PikaBackup
 
 > Simple and secure incremental backups with encryption.
 
-## Notes for Fedora 42 on ThinkPad X1 Extreme Gen 5
+## Fixing Missing Icons in DashtoDock / AATWS
+
+If a desktop application's icon does **not** appear in **Dash to Dock**, it is usually due to a missing `StartupWMClass` entry in the application's `.desktop` file.
+
+## Step 1: Find the correct `WM_CLASS` using LookingGlass
+
+Launch LookingGlass with `Alt+F2`, then type `lg` and press Enter.  
+A debug window will appear.
+
+1. Go to the `Windows` tab.
+2. Find the running application in the list.
+3. Copy the exact value of `wmclass`.
+
+You will use this value in your `.desktop` file as `StartupWMClass`.
+
+![LookingGlass Screenshot](/assets/img/fedora-lg.png.png)
+
+## Step 2: Update the `.desktop` file
+
+Locate or create the `.desktop` file in `~/.local/share/applications`.
+
+Example:
+
+```ini
+[Desktop Entry]
+Name=License Manager
+Comment=Building Energy Performance and District Simulation
+Exec=/run/media/hirth/Daten/Git/VICUS/LizenzManager/bin/release/LicenseManager
+Icon=/run/media/hirth/Daten/Git/VICUS/LizenzManager/LicenseManager/resources/gfx/Logo.svg
+Terminal=false
+Type=Application
+Categories=Science
+StartupNotify=true
+StartupWMClass=LicenseManager
+```
+
+### What does `StartupWMClass` do?
+
+The `StartupWMClass` entry connects the application's window to the correct icon in the dock.  
+It is **essential** for proper icon display when using Dash to Dock or similar extensions.
+
+---
+
+## Notes (so far) for Fedora 42 on ThinkPad X1 Extreme Gen 5
 
 - Hardware compatibility is very good  
 - For more stable Nvidia support, consider disabling hybrid graphics in BIOS  
 - Fedora 42 runs smoothly on Wayland, but some older apps/games may still need XWayland  
-
+- Wayland still kinda slow, but ok
