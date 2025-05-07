@@ -79,8 +79,7 @@ Switch theme using `gnome-tweaks`.
 
 With gnome-tweaks you can reenable the minimize and maximize buttons of the windows. For this open `tweaks` and go to `Window` and then enable `minimize` and `maximize`.
 
-[Gnome tweaks with enabling min/max buttons](/assets/img/fedora-gnome-tweaks.png)
-
+![Gnome tweaks with enabling min/max buttons](/assets/img/fedora-gnome-tweaks.png)
 
 ```sh
 sudo dnf install gnome-tweaks
