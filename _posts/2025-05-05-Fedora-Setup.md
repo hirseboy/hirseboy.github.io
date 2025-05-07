@@ -211,7 +211,7 @@ flatpak install flathub org.gnome.World.PikaBackup
 
 If a desktop application's icon does **not** appear in **Dash to Dock**, it is usually due to a missing `StartupWMClass` entry in the application's `.desktop` file.
 
-## Step 1: Find the correct `WM_CLASS` using LookingGlass
+### Step 1: Find the correct `WM_CLASS` using LookingGlass
 
 Launch LookingGlass with `Alt+F2`, then type `lg` and press Enter.  
 A debug window will appear.
@@ -224,7 +224,7 @@ You will use this value in your `.desktop` file as `StartupWMClass`.
 
 ![LookingGlass Screenshot](/assets/img/fedora-lg.png)
 
-## Step 2: Update the `.desktop` file
+### Step 2: Update the `.desktop` file
 
 Locate or create the `.desktop` file in `~/.local/share/applications`.
 
