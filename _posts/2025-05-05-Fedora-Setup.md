@@ -222,7 +222,7 @@ A debug window will appear.
 
 You will use this value in your `.desktop` file as `StartupWMClass`.
 
-![LookingGlass Screenshot](/assets/img/fedora-lg.png.png)
+![LookingGlass Screenshot](/assets/img/fedora-lg.png)
 
 ## Step 2: Update the `.desktop` file
 
