@@ -107,7 +107,7 @@ You can also set the variable using Flatseal:
 GTK_THEME=Adwaita:dark
 ```
 
-![Flatseal with environement variables  ](/assets/img/fedora-flatseal.png.png)
+![Flatseal with environement variables  ](/assets/img/fedora-flatseal.png)
 
 ## Programming
 
