@@ -31,7 +31,7 @@ sudo apt install qtbase5-dev qt5-qmake libqt5svg5-dev libqt5sql5 libqt5sql5-psql
 
 ## Build tools for c++
 
-To install all needed build-tools for complining applications with gcc an c++ install the following packages:
+To install all needed build-tools for compiling applications with gcc and c++, install the following packages:
 
 ```shell
 sudo apt install build-essential g++ cmake
