@@ -29,6 +29,13 @@ sudo apt install qtbase5-dev qt5-qmake libqt5svg5-dev libqt5sql5 libqt5sql5-psql
 > 
 {: .block-warning }
 
+## Build tools for c++
+
+To install all needed build-tools for complining applications with gcc an c++ install the following packages:
+
+```shell
+sudo apt install g++ cmake
+```
 
 ## Dymola
 
