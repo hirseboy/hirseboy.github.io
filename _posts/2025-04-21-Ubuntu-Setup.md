@@ -34,7 +34,27 @@ sudo apt install qtbase5-dev qt5-qmake libqt5svg5-dev libqt5sql5 libqt5sql5-psql
 To install all needed build-tools for complining applications with gcc an c++ install the following packages:
 
 ```shell
-sudo apt install g++ cmake
+sudo apt install build-essential g++ cmake
+```
+
+## SSH
+
+To connect to other machines via SSH and mount remote filesystems, install the following packages:
+
+```bash
+sudo apt install openssh-client sshfs
+```
+
+> #### MIND
+>
+>   openssh-client: Provides the SSH client tools (ssh, scp, sftp) for connecting to remote systems.
+>   sshfs: Allows you to mount remote filesystems over SSH using FUSE.
+>
+
+If you also want to allow incoming SSH connections to your machine (e.g., for remote access), install the SSH server as well:
+
+```bash
+sudo apt install openssh-server
 ```
 
 ## Dymola
@@ -51,15 +71,15 @@ Vendor-Daemon-Port: 27577
 ## flatpak
 
 ```shell
-flatpak install flathub com.github.tchx84.Flatseal -y
-flatpak install flathub com.jetbrains.PyCharm-Community -y
-flatpak install flathub com.mattjakeman.ExtensionManager -y
-flatpak install flathub im.riot.Riot -y
-flatpak install flathub md.obsidian.Obsidian -y
-flatpak install flathub org.gimp.GIMP -y
-flatpak install flathub org.gnome.Shotwell -y
-flatpak install flathub org.gnome.World.PikaBackup -y
-flatpak install flathub org.kde.okular -y
-flatpak install flathub org.telegram.desktop -y
-flatpak install flathub us.zoom.Zoom -y
+flatpak install flathub com.github.tchx84.Flatseal 
+flatpak install flathub com.jetbrains.PyCharm-Community 
+flatpak install flathub com.mattjakeman.ExtensionManager 
+flatpak install flathub im.riot.Riot 
+flatpak install flathub md.obsidian.Obsidian 
+flatpak install flathub org.gimp.GIMP 
+flatpak install flathub org.gnome.Shotwell 
+flatpak install flathub org.gnome.World.PikaBackup 
+flatpak install flathub org.kde.okular 
+flatpak install flathub org.telegram.desktop 
+flatpak install flathub us.zoom.Zoom 
 ```
