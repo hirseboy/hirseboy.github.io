@@ -55,19 +55,11 @@ flatpak install flathub com.github.tchx84.Flatseal -y
 flatpak install flathub com.jetbrains.PyCharm-Community -y
 flatpak install flathub com.mattjakeman.ExtensionManager -y
 flatpak install flathub im.riot.Riot -y
-flatpak install flathub io.github.mimbrero.WhatsAppDesktop -y
 flatpak install flathub md.obsidian.Obsidian -y
-flatpak install flathub org.freecad.FreeCAD -y
 flatpak install flathub org.gimp.GIMP -y
-flatpak install flathub org.gnome.Evolution -y
-flatpak install flathub org.gnome.Fractal -y
 flatpak install flathub org.gnome.Shotwell -y
 flatpak install flathub org.gnome.World.PikaBackup -y
-flatpak install flathub org.kde.kcachegrind -y
-flatpak install flathub org.kde.krita -y
 flatpak install flathub org.kde.okular -y
-flatpak install flathub org.ksnip.ksnip -y
-flatpak install flathub org.librecad.librecad -y
 flatpak install flathub org.telegram.desktop -y
 flatpak install flathub us.zoom.Zoom -y
 ```
