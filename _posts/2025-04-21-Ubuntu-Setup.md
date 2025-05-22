@@ -68,18 +68,38 @@ FlexLM-Port: 1277
 Vendor-Daemon-Port: 27577
 
 
-## flatpak
+## Flatpak
+
+Install at first _flatpak_ via 
 
 ```shell
-flatpak install flathub com.github.tchx84.Flatseal 
-flatpak install flathub com.jetbrains.PyCharm-Community 
-flatpak install flathub com.mattjakeman.ExtensionManager 
-flatpak install flathub im.riot.Riot 
-flatpak install flathub md.obsidian.Obsidian 
-flatpak install flathub org.gimp.GIMP 
-flatpak install flathub org.gnome.Shotwell 
-flatpak install flathub org.gnome.World.PikaBackup 
-flatpak install flathub org.kde.okular 
-flatpak install flathub org.telegram.desktop 
-flatpak install flathub us.zoom.Zoom 
+sudo apt install flatpak
+``` 
+
+Then you can optionally install the gnome support
+
+```shell
+sudo apt install gnome-software-plugin-flatpak
+``` 
+
+Finally, add the Flathub repository
+
+```shell
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+```
+
+Here are some useful packages I am using so far:
+
+```shell
+flatpak install flathub im.riot.Riot
+flatpak install flathub com.visualstudio.code
+flatpak install flathub com.syntevo.SmartGit
+flatpak install flathub com.mattjakeman.ExtensionManager
+flatpak install flathub org.gnome.World.PikaBackup
+flatpak install flathub com.nextcloud.desktopclient.nextcloud
+flatpak install flathub io.qt.QtCreator
+flatpak install flathub org.keepassxc.KeePassXC
+flatpak install flathub org.mozilla.firefox
+flatpak install flathub com.brave.Browser
+flatpak install flathub org.kde.okular
 ```
