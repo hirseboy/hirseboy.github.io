@@ -51,7 +51,8 @@ flatpak install flathub com.brave.Browser
 flatpak install flathub org.kde.okular
 ```
 
-> Note: Okular automatically used my signing certificate. If not, go to `Settings > Configure Backends > PDF` and select the certificate database from Firefox/Thunderbird using the `NSS` module. 
+> Note: Okular automatically used my signing certificate. If not, go to `Settings > Configure Backends > PDF` and select the certificate database from Firefox/Thunderbird using the `NSS` module.
+{: .prompt-info }
 
 ![Okular with certificate for signing PDFs](/assets/img/fedora-certificate.png)
 
@@ -127,7 +128,7 @@ sudo dnf install mesa-libGLU-devel
 ```
 
 > `qt5-*-devel` installs all Qt5 development packages. Use carefully!
-{: .danger }
+{: .prompt-warning }
 
 Optional Qt6:
 
