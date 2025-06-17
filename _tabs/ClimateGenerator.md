@@ -2,7 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
-title: 🌤️ ClimateGenerator – DWD Climate Data Downloader & Converter
+title: 🌤️ ClimateGenerator
 ---
 
 **ClimateGenerator** is an interactive tool for downloading, combining, and converting climate data from the **German Weather Service (DWD)** into simulation-ready formats.  
@@ -61,5 +61,5 @@ Access is via the [DWD Open Data FTP](https://opendata.dwd.de/climate_environmen
 
 ## Download
 
-[⬇️ Download for Windows 64 Bit]({{ site.url }}/assets/ClimateGenerator_1.5.3_win64.exe)
-[🐧 Download for Linux 64 Bit]({{ site.url }}/assets/ClimateGenerator_1.5.3.deb)
+[⬇️ Download for Windows 64 Bit]({{ site.url }}/assets/installer/ClimateGenerator_1.5.3_win64.exe)
+[🐧 Download for Linux 64 Bit]({{ site.url }}/assets/installer/ClimateGenerator_1.5.3.deb)
