@@ -48,6 +48,7 @@ sudo apt install openssh-client sshfs
 > #### MIND
 >
 >   openssh-client: Provides the SSH client tools (ssh, scp, sftp) for connecting to remote systems.
+>
 >   sshfs: Allows you to mount remote filesystems over SSH using FUSE.
 >
 
