@@ -2,7 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
-title: 🌤️ ClimateGenerator
+title: ClimateGenerator
 ---
 
 **ClimateGenerator** is an interactive tool for downloading, combining, and converting climate data from the **German Weather Service (DWD)** into simulation-ready formats.  
@@ -26,7 +26,8 @@ It enables engineers, researchers, and planners to generate consistent weather f
 - 🔄 **Converts to Simulation Formats**  
   Generates standard weather file formats such as:
   - **EPW (EnergyPlus Weather File)**
-  - **C6B (SIM-VICUS/DELTA-SIM format)**
+  - **C6B (VICUS/DELPHIN format)**
+  - **TSV (TAB-SEPARATED VALUES, EASY OPENING IN EXCEL, LibreCalc)**
 
 ---
 
