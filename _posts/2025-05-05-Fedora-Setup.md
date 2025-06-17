@@ -126,7 +126,8 @@ sudo dnf install qt-creator
 sudo dnf install mesa-libGLU-devel
 ```
 
-> ⚠️ `qt5-*-devel` installs all Qt5 development packages. Use carefully!
+> `qt5-*-devel` installs all Qt5 development packages. Use carefully!
+{: .danger }
 
 Optional Qt6:
 
