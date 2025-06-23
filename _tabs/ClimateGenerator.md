@@ -15,7 +15,7 @@ It enables engineers, researchers, and planners to generate consistent weather f
 ## 🔍 What It Does
 
 - 🛰️ **Accesses Measurement Data**  
-  Retrieves hourly or daily measurement data (temperature, humidity, solar radiation, wind, precipitation, etc.) from the official **DWD FTP server**.
+  Retrieves hourly measurement data (temperature, humidity, solar radiation, wind, precipitation, etc.) from the official **DWD FTP server**.
 
 - 🧩 **Interactive Data Selection**  
   Choose time periods, measurement stations, and relevant variables through a user-friendly interface or configuration file.
@@ -27,7 +27,7 @@ It enables engineers, researchers, and planners to generate consistent weather f
   Generates standard weather file formats such as:
   - **EPW (EnergyPlus Weather File)**
   - **C6B (VICUS/DELPHIN format)**
-  - **TSV (TAB-SEPARATED VALUES, EASY OPENING IN EXCEL, LibreCalc)**
+  - **TSV (Tab-separated values, CSV with Tabs - easy to open in LibreCalc, MS Excel)**
 
 ---
 

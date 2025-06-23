@@ -13,6 +13,7 @@ So far, support has been solid. By default, the system and applications run on t
 Previously, I had to use `prime select <nvidia|intel>`, which also heavily drained the battery in Nvidia mode.
 
 > This guide will be updated continuously.
+{: .prompt-info }
 
 ## RPM Package Manager
 
