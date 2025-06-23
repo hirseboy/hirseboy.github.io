@@ -5,7 +5,7 @@ order: 4
 title: ClimateGenerator
 ---
 
-**ClimateGenerator** is an interactive tool for downloading, combining, and converting climate data from the **German Weather Service (DWD)** into simulation-ready formats.  
+🌍 **ClimateGenerator** is an interactive tool for downloading, combining, and converting climate data from the **German Weather Service (DWD)** into simulation-ready formats.  
 It enables engineers, researchers, and planners to generate consistent weather files for building performance simulations and environmental modeling.
 
 ![Climate Generator](/assets/img/screenshot-climategenerator.png)
