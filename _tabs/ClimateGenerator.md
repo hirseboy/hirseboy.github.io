@@ -56,11 +56,10 @@ Access is via the [DWD Open Data FTP](https://opendata.dwd.de/climate_environmen
 
 - ✅ Provide a transparent and reproducible way to generate simulation-ready climate files
 - ✅ Enable combinations of multiple DWD stations based on proximity or data quality
-- ✅ Support batch generation for multiple years or locations
 
 ---
 
 ## Download
 
-[⬇️ Download for Windows 64 Bit]({{ site.url }}/assets/installer/ClimateGenerator_1.5.3_win64.exe)
-[🐧 Download for Linux 64 Bit]({{ site.url }}/assets/installer/ClimateGenerator_1.5.3.deb)
+[⬇️ Download for Windows 64 Bit v1.6.0]({{ site.url }}/assets/installer/ClimateGenerator_1.6.0_win64.exe)
+[🐧 Download for Linux 64 Bit v1.6.0]({{ site.url }}/assets/installer/ClimateGenerator_1.6.0_linux.7z)
