@@ -16,16 +16,16 @@ It enables engineers, researchers, and planners to generate consistent weather f
 
 ## 🔍 What It Does
 
-- 🛰️ **Accesses Measurement Data**  
+- **Accesses Measurement Data**  
   Retrieves hourly measurement data (temperature, humidity, solar radiation, wind, precipitation, etc.) from the official **DWD FTP server**.
 
-- 🧩 **Interactive Data Selection**  
+- **Interactive Data Selection**  
   Choose time periods, measurement stations, and relevant variables through a user-friendly interface or configuration file.
 
-- 🗃️ **Combines Multiple Data Sources**  
+- **Combines Multiple Data Sources**  
   Merges data from different stations (e.g. temperature from one, radiation from another) into a coherent dataset for simulation.
 
-- 🔄 **Converts to Simulation Formats**  
+- **Converts to Simulation Formats**  
   Generates standard weather file formats such as:
   - **EPW (EnergyPlus Weather File)**
   - **C6B (VICUS/DELPHIN format)**
@@ -45,12 +45,7 @@ The generated files can be directly used in:
 
 ## 📂 Data Sources
 
-All data is based on high-quality measurements from the **Deutscher Wetterdienst (DWD)**:
-- Synoptic stations (climate reference)
-- Radiation stations (solar components)
-- Precipitation and wind data
-
-Access is via the [DWD Open Data FTP](https://opendata.dwd.de/climate_environment/CDC/), which is publicly available.
+All data is based on high-quality measurements from the **Deutscher Wetterdienst (DWD)**. Access is via the [DWD Open Data FTP](https://opendata.dwd.de/climate_environment/CDC/), which is publicly available.
 
 ---
 
