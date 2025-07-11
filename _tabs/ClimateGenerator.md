@@ -36,7 +36,7 @@ It enables engineers, researchers, and planners to generate consistent weather f
 ## 🛠️ Applications
 
 The generated files can be directly used in:
-- **VICUS** – [Building and district simulation tool](https:/vicus-software.com)
+- **VICUS** – [Building and district simulation tool](https://vicus-software.com)
 - **DELPHIN** – Coupled heat and moisture simulation tool
 - **EnergyPlus / OpenStudio** – Building energy simulation
 - Any other simulation software supporting EPW or CSV-based climate input
