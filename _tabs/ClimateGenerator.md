@@ -57,5 +57,5 @@ All data is based on high-quality measurements from the **Deutscher Wetterdienst
 
 ## Download
 
-[⬇️ Download for Windows 64 Bit v1.6.0]({{ site.url }}/assets/installer/ClimateGenerator_1.6.0_win64.exe)
-[🐧 Download for Linux 64 Bit v1.6.0]({{ site.url }}/assets/installer/ClimateGenerator_1.6.0_linux.7z)
+[⬇️ Download for Windows 64 Bit v2.0.0]({{ site.url }}/assets/installer/ClimateGenerator_2.0.0_win64.exe)
+[🐧 Download for Linux 64 Bit v2.0.0]({{ site.url }}/assets/installer/ClimateGenerator_2.0.0_linux.7z)
