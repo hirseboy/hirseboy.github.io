@@ -37,6 +37,22 @@ To install all needed build-tools for compiling applications with gcc and c++, i
 sudo apt install build-essential g++ cmake
 ```
 
+## Install z-lib for QuaZIP
+
+In order to install the `z-lib` use the following command:
+
+```shell
+sudo apt install zlib1g-dev
+```
+
+## OpenGL Driver
+
+If also needing the openGL drivers (needed for the VICUS native rendering engine) install the mesa driver:
+
+```shell
+sudo apt install libegl1-mesa-dev
+```
+
 ## SSH
 
 To connect to other machines via SSH and mount remote filesystems, install the following packages:
