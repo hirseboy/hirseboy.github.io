@@ -23,11 +23,8 @@ To install all qt specific modules run the following command with apt
 sudo apt install qtbase5-dev qt5-qmake libqt5svg5-dev libqt5sql5 libqt5sql5-psql qtdeclarative5-dev qtlocation5-dev qtpositioning5-dev qml-module-qtlocation qml-module-qtpositioning
 ``` 
 
-> ##### MIND
->
 > Since we use some QML Features in our software, we also have to install the qml and location modules. 
-> 
-{: .block-warning }
+{: .prompt-warning }
 
 ## Build tools for c++
 
@@ -61,12 +58,9 @@ To connect to other machines via SSH and mount remote filesystems, install the f
 sudo apt install openssh-client sshfs
 ```
 
-> #### MIND
->
 >   openssh-client: Provides the SSH client tools (ssh, scp, sftp) for connecting to remote systems.
->
 >   sshfs: Allows you to mount remote filesystems over SSH using FUSE.
->
+{: .prompt-warning }
 
 If you also want to allow incoming SSH connections to your machine (e.g., for remote access), install the SSH server as well:
 

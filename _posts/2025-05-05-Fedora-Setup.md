@@ -139,7 +139,7 @@ sudo dnf install qt6-qtbase-devel qt6-qttools-devel
 
 #### Qt Creator Launch Options for NVIDIA
 
-Under `Projects > Run > Environment`:
+Under `Projects > Run > Environment` add:
 
 ```sh
 QT_QPA_PLATFORM=xcb
