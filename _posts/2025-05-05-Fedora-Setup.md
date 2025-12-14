@@ -1,7 +1,7 @@
 ---
 title: Switching to Fedora 42  
 date: 2025-04-12 15:42:00 
-categories: news blogging 
+categories: linux 
 tags: fedora gnome flatpak     # TAG names should always be lowercase
 ---
 
