@@ -5,26 +5,26 @@ categories: news blogging
 tags: logitech keyboard solaar print     # TAG names should always be lowercase
 ---
 
-I ran into the same on Fedora. First make sure you have [Solaar](https://www.reddit.com/search/?q=Solaar+Ubuntu&cId=0e8caaae-db56-4665-b91b-0ac0416da431&iId=2b20e335-b456-4711-a98d-644b344e806d) installed.
+I ran into the same on Fedora. First make sure you have [Solaar](https://github.com/pwr-Solaar/Solaar) installed.
 
 - Then, in Solaar, select the keyboard in the left column.
 
-![[print-keyboard-1.png]]
+![Devices overview](/assets/img/print-keyboard-1.png)
 
 - In the right column, click the padlock icon for `Key/Button Diversion` until it is unlocked.
 
-![[print-keyboard-2.png]]
+![Unlock key redirection](/assets/img/print-keyboard-2.png)
 
 - In the dropdown, select `Screenshot` and change `Regular` to `Diverted`.
 - Click the padlock icon to lock it again.
-- Click the `[Rule Editor](https://www.reddit.com/search/?q=Solaar+Rule+Editor&cId=e76ca4b8-5628-42dc-b2d8-d3ba13615d62&iId=9c06fc5e-874d-40e1-aa78-57036e7f78d6) ` button in the lower right of Solaar.
+- Click the `Rule Editor` button in the lower right of Solaar.
 - Under `User-defined rules`, right-click to insert a new rule.
 - Right-click the new rule, and select `Condition` -> `Key`
 - Specify `Screenshot` as the key, keeping `Key down` selected.
 - Right-click again, and `Insert below` -> `Action` -> `Key press`
 - Specify `Print` as they key
 
-![[print-keyboard-3.png]]
+![Set the new print key](/assets/img/print-keyboard-3.png)
 
 Make sure that the `Key press` action is after / below the `Screenshot (pressed)` condition, and save the changes.
 
