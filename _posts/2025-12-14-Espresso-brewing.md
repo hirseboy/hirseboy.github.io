@@ -1,13 +1,13 @@
 ---
 title: Espresso brewing knowledge base  
 date: 2025-12-13 12:00:00 
-categories: news blogging 
-tags: espresso coffee     # TAG names should always be lowercase
+categories: blogging 
+tags: espresso coffee brewing    # TAG names should always be lowercase
 ---
 
 # Espresso brewing with a portafilter
 
-I own for some time now a portafilter espresso-machine `ECM Classika I` from the company [ECM](https://www.instagram.com/ecmespresso/?hl=en). Since the process of making a good espresso with different variations of roasted beans (from light roasted fruity beans up to dark roasted chocolaty tasting) is quite difficult, I want to write down my learnings and experiences. 
+I own for some time now a portafilter espresso-machine `ECM Classika I` from the company [ECM](https://www.instagram.com/ecmespresso/?hl=en). Since the process of making a good espresso with different variations of roasted beans (from light roasted fruity beans up to dark roasted chocolaty tasting) is quite difficult, I want to write down my learnings and experiences. First of all the most important thing in espresso brewing is the grinder. If you bought yourself an expensive portafilter and a cheap bean-grinder, you made a big mistake. The grinder itself is more important than the machine, since it is necessairy to obtain a steady output of coffee powder with a consisent grain size. I am using a single-dosing grinder [`g-iota DF64v`](https://kaffeemacher.de/blogs/kaffeewissen/df64v-rpm). It does not contain a bean container and converts almost the complete bean volume to grinded coffee grain. Apart from that the brewing recipes are really important and depending on the roasted beans. Hereafter I wil write down some typical brewing recipes.
 
 ## brewing-recipes
 
