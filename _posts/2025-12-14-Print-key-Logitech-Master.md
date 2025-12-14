@@ -1,5 +1,5 @@
 ---
-title: Fixing Logitech Master 3S printing key with inux   
+title: Fixing Logitech Master 3S printing key with Linux with solaar  
 date: 2025-12-13 12:00:00 
 categories: news blogging 
 tags: logitech keyboard solaar print     # TAG names should always be lowercase
