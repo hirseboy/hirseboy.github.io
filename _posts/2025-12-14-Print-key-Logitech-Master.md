@@ -1,7 +1,7 @@
 ---
 title: Fixing Logitech Master 3S printing key with inux   
 date: 2025-12-13 12:00:00 
-categories: blogging 
+categories: news blogging 
 tags: logitech keyboard solaar print     # TAG names should always be lowercase
 ---
 
