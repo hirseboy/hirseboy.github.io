@@ -65,6 +65,16 @@ flatpak install flathub com.vscodium.codium
 
 ## UI Customization
 
+### Gnome theme 
+
+Currenty I am using a theme called 'graphite', which has quite a clean, modern and sophisticated look. You can install by cloning the following [repository](https://github.com/vinceliuice/Graphite-gtk-theme) on github and run `intstall.sh`
+
+```sh
+git clone https://github.com/vinceliuice/Graphite-gtk-theme
+cd Graphite-gtk-theme
+./install #you can find the optional arguments inside the manpage of the repo
+```
+
 ### Icon Theme: Colloid
 
 Install the [Colloid Icon Theme](https://github.com/vinceliuice/Colloid-icon-theme):
@@ -74,6 +84,8 @@ git clone https://github.com/vinceliuice/Colloid-icon-theme
 cd Colloid-icon-theme
 ./install.sh -d ~/.local/share/icons
 ```
+
+
 
 Switch theme using `gnome-tweaks`.
 
