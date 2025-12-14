@@ -7,9 +7,7 @@ tags: espresso coffee     # TAG names should always be lowercase
 
 # Espresso brewing with a portafilter
 
-I own for some time now a portafilter espresso-machine `ECM Classika I` from the company [ECM](https://www.instagram.com/ecmespresso/?hl=en). Since the process of making a good espresso with different variations of roasted beans (from light roasted fruity beans up to dark roasted chocolaty tasting).
-
-In the article I want to right down my learnings and experiences. 
+I own for some time now a portafilter espresso-machine `ECM Classika I` from the company [ECM](https://www.instagram.com/ecmespresso/?hl=en). Since the process of making a good espresso with different variations of roasted beans (from light roasted fruity beans up to dark roasted chocolaty tasting) is quite difficult, I want to write down my learnings and experiences. 
 
 ## brewing-recipes
 
