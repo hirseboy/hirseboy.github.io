@@ -1,7 +1,7 @@
 ---
 title: Disable touchscreen on Ubuntu
 date: 2024-07-11 10:30:00 
-categories: blogging 
+categories: linux 
 tags: ubuntu xinput touchscreen     # TAG names should always be lowercase
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Espresso brewing knowledge base  
 date: 2025-12-13 12:00:00 
-categories: blogging 
+categories: coffee 
 tags: espresso coffee brewing    # TAG names should always be lowercase
 ---
 
