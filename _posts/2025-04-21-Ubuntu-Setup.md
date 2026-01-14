@@ -1,7 +1,7 @@
 ---
 title: Setting up ubuntu   
 date: 2025-04-12 15:42:00 
-categories: news blogging 
+categories: linux
 tags: ubuntu setup qt qtceator     # TAG names should always be lowercase
 ---
 

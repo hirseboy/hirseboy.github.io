@@ -1,7 +1,7 @@
 ---
 title: Using conda in pycharm
 date: 2023-08-02 14:00:00 
-categories: programming blogging 
+categories: python 
 tags: python conda documentation     # TAG names should always be lowercase
 ---
 

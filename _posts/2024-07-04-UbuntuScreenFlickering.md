@@ -1,7 +1,7 @@
 ---
 title: Screen flickering on Ubuntu
 date: 2024-07-02 10:30:00 
-categories: blogging 
+categories: linux 
 tags: ubuntu bug intel     # TAG names should always be lowercase
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: My Gnome setup
 date: 2024-04-22 10:30:00 
-categories: blogging 
+categories: linux 
 tags: linux gnome extensions desktop     # TAG names should always be lowercase
 ---
 

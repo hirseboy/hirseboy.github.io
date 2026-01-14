@@ -1,7 +1,7 @@
 ---
 title: Cleaning up apt repositories   
 date: 2024-01-22 10:30:00 
-categories: news blogging 
+categories: linux 
 tags: apt repositories     # TAG names should always be lowercase
 ---
 
