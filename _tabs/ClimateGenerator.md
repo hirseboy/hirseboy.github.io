@@ -7,9 +7,10 @@ title: ClimateGenerator
 
 🌍 **ClimateGenerator** is an interactive tool for downloading, combining, and converting climate data from the **German Weather Service (DWD)** into simulation-ready formats. It enables engineers, researchers, and planners to generate consistent weather files for building performance simulations and environmental modeling.
 
-![Climate Generator](/assets/img/ClimateGenerator1.png)
-![Climate Generator](/assets/img/ClimateGenerator2.png)
-![Climate Generator](/assets/img/ClimateGenerator3.png)
+![Climate Generator](/assets/img/ClimateGenerator 1.png)
+![Climate Generator](/assets/img/ClimateGenerator 2.png)
+![Climate Generator](/assets/img/ClimateGenerator 3.png)
+![Climate Generator](/assets/img/ClimateGenerator 4.png)
 
 ---
 
@@ -57,5 +58,5 @@ All data is based on high-quality measurements from the **Deutscher Wetterdienst
 
 ## Download
 
-[⬇️ Download - Windows 64 Bit v2.1]({{ site.url }}/assets/installer/ClimateGenerator_2.1.0_win64_2025-12-07.exe)
+[⬇️ Download - Windows 64 Bit v3.0]({{ site.url }}/assets/installer/ClimateGenerator_3.0.0_win64.exe)
 [⬇️ Download - Linux 64 Bit v2.1]({{ site.url }}/assets/installer/ClimateGenerator_2.1.0_linux_2025-12-07.7z)
