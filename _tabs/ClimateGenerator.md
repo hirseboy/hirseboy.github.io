@@ -2,12 +2,8 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
-title: ClimateGenerator
+title: 🌍 ClimateGenerator
 ---
-
-
-
-# 🌍 ClimateGenerator  
 
 **Simulation-ready climate data from DWD**
 
