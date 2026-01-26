@@ -1,8 +1,8 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
-title: Hi, my name is Stephan 👋
+order: 5
+title: About
 ---
 
 I am Stephan Hirth, a researcher in the field of building physics at the TU Dresden.
