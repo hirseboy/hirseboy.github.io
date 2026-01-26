@@ -1,6 +1,6 @@
 ---
 title: Managing Flatpak Applications and Checking Sizes
-date: 2026-01-26 12:00:00
+date: 2026-01-26 10:00:00
 categories: [linux, flatpak]
 tags: [flatpak, package-management, disk-usage, linux]
 ---
