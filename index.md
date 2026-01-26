@@ -24,4 +24,4 @@ Check out my [blog](/blog) where I write about topics related to Linux, software
 
 ## 🌍 ClimateGenerator
 
-I developed [ClimateGenerator](/tabs/ClimateGenerator), a specialized software tool for downloading, processing, and converting meteorological measurement data from the German Weather Service (DWD) into standardized weather files for building and environmental simulations. Learn more about its features and capabilities on the dedicated [project page](/tabs/ClimateGenerator).
+I developed [ClimateGenerator](/climatégenerator/), a specialized software tool for downloading, processing, and converting meteorological measurement data from the German Weather Service (DWD) into standardized weather files for building and environmental simulations. Learn more about its features and capabilities on the [project page](/climatégenerator/).

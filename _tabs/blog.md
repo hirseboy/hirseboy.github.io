@@ -12,4 +12,4 @@ Welcome to my blog! Here you'll find posts about:
 - **Building Physics & Simulation** - research insights and technical knowledge
 - **Open Source Tools** - experiences with various tools and projects
 
-Browse the [blog archive](/blog) to explore all posts by date, or use the [tags](/tabs/tags) and [categories](/tabs/categories) to find topics of interest.
+Browse the [archive](/archives/) to explore all posts by date, or use the [tags](/tags/) and [categories](/categories/) to find topics of interest.
